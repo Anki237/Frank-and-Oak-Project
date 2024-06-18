@@ -1,16 +1,44 @@
 Frank and Oak
 
 Introduction
-Frank And Oak is a Canadian apparel brand founded in Montreal in 2012. The company focuses on creating sustainable, eco-friendly clothing for both men and women. But we have given cloan of it.
+Frank And Oak is a Canadian apparel brand founded in Montreal in 2012. The company focuses on creating sustainable, eco-friendly clothing for both men and women. But we have given clone of it.
 
 Project Type
-We are going to perform End to End Testing here.
+The project is basically an e-commerce project
+We have perform End to End Testing here.
 
 Deplolyed App
 For testing link given is-https://6641c4a6f60fc17bdb89b7db--cheery-genie-3d5d23.netlify.app/
 
 Directory Structure
-First tested the frontend Secondly tested the data flow between modules
+/frank-and-oak
+│
+├── /tests
+│   ├── /unit
+│   │   ├── test_user_name.js
+│   │   ├── test_product_catalog.js
+│   │   └── ...
+│   │
+│   ├── /integration
+│   │   ├── test_checkout_process.js
+│   │   ├── test_addtocart.js
+│   │   └── ...
+│   │
+│   └── /functional
+│       ├── test_browsing_experience.js
+│       ├── test_checkout_process.js
+│       └── ...
+│
+├── /logs
+│   ├── functional_test.log
+│   ├── integration_test.log
+│   └── ...
+│
+└── /reports
+    ├── unit_test_report.xlsx
+    ├── integration_test_report.xlsx
+    
+
 
 Video Walkthrough of the project
 walkthrough project-https://drive.google.com/file/d/1fPVXnlEs4-qgtgl7tRSE_1PDapwiCsjk/view?usp=sharing
@@ -50,12 +78,13 @@ open the folder in vs code
 creat a .js file run the script given in the repository.
 
 Include screenshots as necessary.
+Added in the Googlesheet can refer the link -https://docs.google.com/spreadsheets/d/14dMyI3PJpj3yIA5GWmvW_pq6eA_70ELOqKVxQWEafD8/edit?usp=sharing
 
 Credentials
 username-Ankita password-ruchiverma@14
 
-GOOGLE SHEET TEST CASES LINK-
-https://docs.google.com/spreadsheets/d/14dMyI3PJpj3yIA5GWmvW_pq6eA_70ELOqKVxQWEafD8/edit?usp=sharing
+API-
+Did not perform api testing in it
 
 Technology Stack
 Node.js
