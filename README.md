@@ -22,18 +22,32 @@ Features
 List out the key features of your application.
 
 login functionality testing
+Hompage functionality testing
 wish list functionlity testing
+Add to cart Functionality testing
 secure checkout functionality testing
+logout testing
+
 design decisions or assumptions
-List your design desissions & assumptions
+Decision Title: Automate Regression Test Cases
+Description: All regression test cases will be automated using a test automation framework.
+Rationale:
+Automation reduces the time and effort required for regression testing, allowing for faster release cycles.
+Ensures higher accuracy and coverage compared to manual testing, as automated tests can be run more frequently and thoroughly.
+Frees up manual testers to focus on exploratory testing and new feature testing.
+Assumption Title: Users have stable internet connections
+Description: The application assumes users will have reliable internet access.
+Context: The app is web-based and requires internet connectivity.
 
 Installation & Getting started
 install cypress using command npm -i init npm install cypress --save-dev
 
 Usage
-Provide instructions and examples on how to use your project.
 
-Easily run the code in any cypress tool install cypress in vs code or any ide make sure node js is installed open the folder in vs code creat a .js file run the script given in the repository.
+Easily run the code in any cypress tool 
+install cypress in vs code or any ide make sure node js is installed 
+open the folder in vs code
+creat a .js file run the script given in the repository.
 
 Include screenshots as necessary.
 
